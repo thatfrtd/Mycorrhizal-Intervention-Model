@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e3b9b5fb-0ea4-4ff9-aa4c-84cce5cb7330</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Model.py</StartupFile>
+    <StartupFile>RunModel.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Model.py" />
+    <Compile Include="DroughtModel.py" />
+    <Compile Include="Analysis.py" />
+    <Compile Include="KillerModel.py" />
     <Compile Include="RunModel.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
